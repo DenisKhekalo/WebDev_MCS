@@ -1,0 +1,16 @@
+.First {
+	color:purple;
+}
+div {
+color: red;
+}
+section {
+	color: green;
+}
+#section2{
+	color: blue;
+}
+
+nav, h2 {
+	color: orange;
+}

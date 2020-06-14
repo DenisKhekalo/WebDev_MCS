@@ -1,0 +1,138 @@
+@import url(reset.css)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pacifico&display=swap');
+
+
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+}
+main {
+  padding-bottom: 1100px;
+  /*Высота футера*/
+}
+footer {
+  margin-top: -200px;
+  /*Минус Высота футера*/
+  height: 200px;
+  /*Высота футера*/
+}
+
+.header {
+	width: 1440px;
+	height: 200px;
+	background-color: #FF7F50;
+}
+.heading {
+	width: 800px;
+	height: 40px;
+	font-family: font-family: 'Pacifico', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 180px;
+	color: #FFFFFF;
+	margin-left: 80px;
+}
+
+.imageOne {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/img1.png);
+	background-attachment:fixed;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.headingTwo {
+	width: 1440px;
+	height: 100px;
+	background-color: #FF7F50;
+}
+
+.menu {
+	width: 984px;
+	height: 100px;
+	font-family: font-family: 'Pacifico', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 90px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 80px;
+}
+
+}
+.formainText {
+	width: 1440px;
+	height: 847px;
+	background-color: #FFFFFF;
+}
+
+.text {
+	width: 1280px;
+	height: 637px;
+	margin: 80px;
+}
+.bold {
+	font-family:font-family: 'Montserrat Alternates', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+color: #000000;
+}
+
+.normal1 {
+	font-family: font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 1.5em; /* Отступ сверху */
+    margin-bottom: 1em;
+}
+.normal2 {
+	font-family: font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em;
+}
+.normal3 {
+	font-family: font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000000;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em;
+}
+.footer {
+	display: flex;
+	width: 1440px;
+    height: 200px;
+    background: #FF7F50;
+}
+.imageTwo {
+	width: 205px;
+	height: 46px;
+	margin-top: 77px;
+	margin-left: 80px;
+}
+.footertext {
+
+width: 614px;
+height: 64px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 57px;
+color: #FFFFFF;
+margin-left: 461px;
+margin-top: 68px;
+}
