@@ -1,33 +1,19 @@
 @import url(reset.css)
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pacifico&display=swap');
 
-
-html,
-body {
-  height: 100%;
-}
-#wrap {
-  min-height: 100%;
-}
-main {
-  padding-bottom: 1100px;
-  /*Высота футера*/
-}
-footer {
-  margin-top: -200px;
-  /*Минус Высота футера*/
-  height: 200px;
-  /*Высота футера*/
+.body {
+	width: 1440px;
+    height: 2427px;
 }
 
 .header {
 	width: 1440px;
-	height: 200px;
+	height: 1380px;
 	background-color: #FF7F50;
 }
 .heading {
-	width: 800px;
-	height: 40px;
+	width: 1440px;
+	height: 200px;
 	font-family: font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: bold;

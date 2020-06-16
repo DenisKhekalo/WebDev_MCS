@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+div {
+	background-color: pink;
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+float: right;
+
+}

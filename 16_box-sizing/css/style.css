@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+div {
+	background: orange;
+	width: 600px;
+	height: 600px;
+	border: 5px solid blue;
+	box-sizing: border-box;
+}
