@@ -1,0 +1,214 @@
+@import url(reset.css);
+
+.body {
+	width: 1440px;
+    height: 3359px;
+    background: #FFFFFF
+}
+
+.header {
+	width: 1440px;
+    height: 140px;
+}
+
+.heading {
+	position: fixed;
+	width: 1440px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+	width: 120px;
+    height: 40px;
+	font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+    margin-left: 50px;
+
+}
+
+a {
+	color: #E50043;
+
+}
+
+.headnav {
+	font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    word-spacing: 50px;
+    margin-right: 50px;
+   }
+
+.image1 {
+	width: 1440px;
+    height: 950px;
+	background-image: url(../img/logo.png);
+    background-attachment:scroll;
+	background-repeat: repeat;
+	background-size: cover;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.firsth1 {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 115px;
+	text-align: center;
+	color: #E50043;
+
+}
+
+main {
+	height: 2129px;
+	width: 1440px;
+}
+
+.frame {
+	width: 1040px;
+    height: 280px;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	position: relative;
+	margin: 174px 223px 225px 174px;
+	display: flex;
+	justify-content:space-around;
+	flex-direction:column;
+
+}
+
+.textframe,.textframe1  {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+
+}
+
+.groupimg {
+	position: relative;
+	margin: 150px 200px 42px 200px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+    justify-content:space-around;
+
+}
+
+.forwang {
+	width: 281px;
+	height: 863px;
+	background-image: url(../img/wang.png);
+	display: flex;
+	align-items: center;
+}
+
+.forblue {
+	width: 279px;
+	height: 863px;
+	background-image: url(../img/blue.png);
+	display: flex;
+	align-items: center;
+
+}
+
+.forchiara {
+	width: 280px;
+	height: 863px;
+	background-image: url(../img/chiara.png);
+	display: flex;
+	align-items: center;
+
+}
+
+.textimg {	
+	position: relative;
+	margin: 42px 216px 150px 216px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+    justify-content:space-around;
+
+}
+
+.wang, .blue, .chaira {
+	display: flex;
+	align-items: center;
+}
+
+.frame2 {
+	width: 1040px;
+    height: 280px;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	position: relative;
+	margin: 156px 199px 150px 201px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.textframe21, .textframe22, .textframe23 {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+
+.microimg {
+	width: 101px;
+	height: 220px;
+	background-image: url(../img/glass.png);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.textformicroimg {
+	width: 749px;
+	height: 220px;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+
+.footer {
+	width: 1440px;
+	height: 140px;
+	background: #F8BFC7;
+}
+
+.forTF {
+	position: absolute;
+	margin:50px 1060px 50px 50px;
+	width: 330px;
+	height: 40px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+}
