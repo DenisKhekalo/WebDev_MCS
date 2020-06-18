@@ -63,7 +63,7 @@ left: 970px;
 top: 112px;
 }
 
-.h1one {
+.h1 {
 	position: relative;
     width: 207px;
     height: 23px;
@@ -76,42 +76,9 @@ top: 112px;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
-
 }
 
-.h1two {
-	position: relative;
-    width: 207px;
-    height: 23px;
-    left: 33px;
-    top: 33px;
-
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-
-}
-
-.h1three {
-	position: relative;
-    width: 207px;
-    height: 23px;
-    left: 33px;
-    top: 33px;
-
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-
-}
-
-.textOne {
+.contain {
 	position: absolute;
 	left: 33px;
     top: 97px;
@@ -125,47 +92,10 @@ top: 112px;
     color: #000000;
 }
 
-.text11, .text12, .text13, .text14 {
+.text {
     padding-bottom: 20px;
 }
 
-
-.textTwo {
-    position: absolute;
-    left: 33px;
-    top: 97px;
-    width: 334px;
-    height: 670px;
-    font-family: Times New Roman;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-
-.text21, .text22, .text23, .text24 {
-    padding-bottom: 20px;
-}
-
-
-.textThree {
-    position: absolute;
-    left: 33px;
-    top: 97px;
-    width: 334px;
-    height: 670px;
-    font-family: Times New Roman;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-
-.text31, .text32, .text33, .text34 {
-    padding-bottom: 20px;
-}
 
 .footer {
     width: 1440px;

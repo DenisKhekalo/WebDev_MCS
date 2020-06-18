@@ -31,7 +31,7 @@
 	background-repeat: repeat;
 	background-size: cover;
 }
-.headingTwo {
+.container {
 	width: 1440px;
 	height: 100px;
 	background-color: #FF7F50;
@@ -51,7 +51,7 @@
 }
 
 }
-.formainText {
+.container2 {
 	width: 1440px;
 	height: 847px;
 	background-color: #FFFFFF;
@@ -70,7 +70,7 @@ font-size: 60px;
 color: #000000;
 }
 
-.normal1 {
+.normal {
 	font-family: font-family: 'Montserrat Alternates', sans-serif;
     font-style: normal;
     font-weight: lighter;
@@ -79,24 +79,7 @@ color: #000000;
     margin-top: 1.5em; /* Отступ сверху */
     margin-bottom: 1em;
 }
-.normal2 {
-	font-family: font-family: 'Montserrat Alternates', sans-serif;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 50px;
-    color: #000000;
-    margin-top: 0.5em; /* Отступ сверху */
-    margin-bottom: 1em;
-}
-.normal3 {
-	font-family: font-family: 'Montserrat Alternates', sans-serif;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 50px;
-    color: #000000;
-    margin-top: 0.5em; /* Отступ сверху */
-    margin-bottom: 1em;
-}
+
 .footer {
 	display: flex;
 	width: 1440px;
