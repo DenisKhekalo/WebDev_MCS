@@ -27,41 +27,48 @@ color: #FFFFFF;
 
 }
 
-.one {
-width: 400px;
-height: 800px;
-border: 5px solid #E5E000;
-border-radius: 30px;
-display: inline-block;
-box-sizing: border-box;
-position: absolute;
-left: 70px;
-top: 112px;
+.main {
+    font-size: 0;
 }
 
-.two {
+.containone {
 width: 400px;
 height: 800px;
 border: 5px solid #E5E000;
 border-radius: 30px;
 display: inline-block;
 box-sizing: border-box;
-position: absolute;
-left: 520px;
-top: 112px;
+margin:52px 0px 50px 72px;
+vertical-align: top;
+
 }
 
-.three {
+.containtwo {
 width: 400px;
 height: 800px;
 border: 5px solid #E5E000;
 border-radius: 30px;
 display: inline-block;
 box-sizing: border-box;
-position: absolute;
-left: 970px;
-top: 112px;
+margin:52px 0px 52px 50px;
+vertical-align: top;
+
+
 }
+
+.containthree {
+width: 400px;
+height: 800px;
+border: 5px solid #E5E000;
+border-radius: 30px;
+display: inline-block;
+box-sizing: border-box;
+margin:52px 0px 50px 50px;
+vertical-align: top;
+
+
+}
+
 
 .h1 {
 	position: relative;
@@ -79,7 +86,7 @@ top: 112px;
 }
 
 .contain {
-	position: absolute;
+	position: relative;
 	left: 33px;
     top: 97px;
 	width: 334px;
