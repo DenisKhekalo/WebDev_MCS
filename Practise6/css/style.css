@@ -1,5 +1,11 @@
 @import url(reset.css);
 
+* {
+	box-sizing: border-box;
+}
+
+	
+
 .body {
 	width: 1440px;
     height: 3359px;
@@ -37,6 +43,7 @@
 
 a {
 	color: #E50043;
+	text-decoration:none;
 
 }
 
@@ -81,12 +88,11 @@ main {
 }
 
 .frame {
-	width: 1040px;
-    height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	position: relative;
-	margin: 150px 199px 150px 201px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .textframe, .textframe1 {
@@ -99,12 +105,11 @@ main {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
-	box-sizing: border-box;
+	
 
 }
 
 .groupimg {
-	position: relative;
 	margin: 0px 200px 42px 200px;
 	display: flex;
 	flex-direction: row;
@@ -116,14 +121,12 @@ main {
 	width: 281px;
 	height: 863px;
 	background-image: url(../img/wang.png);
-	display: flex;
 }
 
 .forblue {
 	width: 279px;
 	height: 863px;
 	background-image: url(../img/blue.png);
-	display: flex;
 
 }
 
@@ -131,12 +134,10 @@ main {
 	width: 280px;
 	height: 863px;
 	background-image: url(../img/chiara.png);
-	display: flex;
 
 }
 
 .textimg {	
-	position: relative;
 	margin: 42px 216px 0px 216px;
 	display: flex;
 	flex-direction: row;
@@ -144,16 +145,12 @@ main {
 
 }
 
-.wang, .blue, .chaira {
-	display: flex;
-}
 
 .frame2 {
 	width: 1040px;
     height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	position: relative;
 	margin: 156px 199px 150px 201px;
 	display: flex;
 	justify-content: space-around;
@@ -167,7 +164,6 @@ main {
 	font-weight: normal;
 	font-size: 25px;
 	line-height: 29px;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.05em;
 	color: #000000;
@@ -177,7 +173,6 @@ main {
 	width: 101px;
 	height: 220px;
 	background-image: url(../img/glass.png);
-	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }

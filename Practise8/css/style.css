@@ -6,8 +6,8 @@ body {
 }
 
 header {
-	min-width: 1440px;
-	min-height: 160px;
+	width: 100vw;
+	height: 160px;
 	background-color: #FEB700;
 	display: flex;
 	justify-content: center;
@@ -61,6 +61,11 @@ main {
 	background-image: url(../img/potatoes.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.text {
+	width: 334px;
+	height: 1214px;
 }
 
 .column2 {
