@@ -50,6 +50,10 @@
 	margin-left: 80px;
 }
 
+a {
+	text-decoration: none;
+}
+
 }
 .container2 {
 	width: 1440px;
