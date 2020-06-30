@@ -66,6 +66,8 @@ a {
 	background-size: cover;
 	display: flex;
 	justify-content:center;
+	align-items: center;
+	margin-bottom: 150px;
 }
 
 .firsth1 {
@@ -80,7 +82,6 @@ a {
 }
 
 main {
-	height: 2129px;
 	width: 1440px;
 	display: flex;
 	justify-content:space-around;
@@ -92,6 +93,8 @@ main {
 	border-radius: 20px;
 	width: 1040px;
 	margin: auto;
+	align-items: center;
+	justify-content: center;
 }
 
 .textframe, .textframe1 {
@@ -109,7 +112,7 @@ main {
 }
 
 .groupimg {
-	margin: 0px 200px 42px 200px;
+	margin: 150px 200px 42px 200px;
 	display: flex;
 	flex-direction: row;
     justify-content:space-around;
