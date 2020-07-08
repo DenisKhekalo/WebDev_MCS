@@ -153,13 +153,20 @@ main {
 	text-align: center;
 }
 
+.outer {
+	width: 1440px;
+	height: 580px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+
+}
 
 .frame2 {
 	width: 1040px;
     height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	margin: 156px 199px 150px 201px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
