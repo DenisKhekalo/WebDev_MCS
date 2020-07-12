@@ -1,5 +1,9 @@
 @import url(reset.css);
 
+html {
+	font-size: 10px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -7,19 +11,19 @@
 	
 
 .body {
-	width: 1440px;
-    height: 3359px;
+	width: 144rem;
+    height: 335.9rem;
     background: #FFFFFF
 }
 
 .header {
-    height: 140px;
+    height: 14rem;
 }
 
 .heading {
 	position: fixed;
-	width: 1440px;
-    height: 140px;
+	width: 144rem;
+    height: 14rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,14 +31,14 @@
 }
 
 .logo {
-	width: 120px;
+	width: 12rem;
 	font-family: Arial;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 57px;
+    font-size: 5rem;
+    line-height: 5.7rem;
     color: #E50043;
-    margin-left: 50px;
+    margin-left: 5rem;
 
 }
 
@@ -48,27 +52,27 @@ a {
 	font-family: Arial;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 57px;
-    word-spacing: 50px;
-    margin-right: 50px;
+    font-size: 5rem;
+    line-height: 5.7rem;
+    word-spacing: 5rem;
+    margin-right: 5rem;
    }
 
 .image1 {
-    height: 950px;
+    height: 95rem;
 	background-image: url(../img/logo.png);
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	margin-bottom: 150px;
+	margin-bottom: 15rem;
 }
 
 .firsth1 {
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100px;
-	line-height: 115px;
+	font-size: 10rem;
+	line-height: 11.5rem;
 	text-align: center;
 	color: #E50043;
 
@@ -83,24 +87,24 @@ main {
 .frame {
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
-	width: 1040px;
-	padding: 10px 20px 10px 30px;
+	width: 104rem;
+	padding: 1rem 2rem 1rem 3rem;
 }
 
 .textframe, .textframe1 {
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	letter-spacing: 0.05em;
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 	text-align: justify;
 	
 }
 
 .imagetext {
-	margin-top: 150px;
+	margin-top: 15rem;
 }
 
 .groupimg {
@@ -110,30 +114,30 @@ main {
 }
 
 .forwang {
-	width: 281px;
-	height: 863px;
+	width: 28.1rem;
+	height: 86.3rem;
 	background-image: url(../img/wang.png);
-	margin-right:100px;
+	margin-right:10rem;
 }
 
 .forblue {
-	width: 279px;
-	height: 863px;
+	width: 27.9rem;
+	height: 86.3rem;
 	background-image: url(../img/blue.png);
-	margin-right:100px;
+	margin-right:10rem;
 
 
 }
 
 .forchiara {
-	width: 280px;
-	height: 863px;
+	width: 28rem;
+	height: 86.3rem;
 	background-image: url(../img/chiara.png);
 
 }
 
 .textimg {
-	margin-top: 42px;
+	margin-top: 4.2rem;
 	display: flex;
     justify-content:space-around;
     align-content:center;
@@ -141,26 +145,25 @@ main {
 }
 
 .wang, .blue, .chaira {
-	width: 251px;
-	height: 58px;
+	width: 25.1rem;
+	height: 5.8rem;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	text-align: center;
 }
 
 .frame2 {
-	width: 1040px;
-    height: 280px;
-    margin: 150px 0px;
+	width: 104rem;
+    margin: 15rem 0rem;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 20px;
+	padding: 2rem;
 
 }
 
@@ -168,43 +171,43 @@ main {
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	align-items: center;
 	letter-spacing: 0.05em;
 	color: #000000;
 }
 
 .microimg {
-	width: 101px;
-	height: 220px;
+	width: 10.1rem;
+	height: 22rem;
 	background-image: url(../img/glass.png);
 	justify-content: flex-end;
 	align-items: center;
 }
 
 .textformicroimg {
-	width: 749px;
-	height: 220px;
+	width: 74.9rem;
+	height: 22rem;
 	display:flex;
 	flex-direction: column;
 	justify-content:space-around;
 }
 
 .footer {
-	height: 140px;
+	height: 14rem;
 	background: #F8BFC7;
 }
 
 .forTF {
 	position: absolute;
-	margin:50px 1060px 50px 50px;
-	width: 330px;
-	height: 40px;
+	margin:5rem 106rem 5rem 5rem;
+	width: 33rem;
+	height: 4rem;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 57px;
+	font-size: 5rem;
+	line-height: 5.7rem;
 	color: #FFFFFF;
 }
