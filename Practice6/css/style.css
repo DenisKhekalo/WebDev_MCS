@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 html {
-	font-size: 10px;
+	font-size: 5px;
 }
 
 * {
@@ -170,6 +170,7 @@ main {
 	width: 10.1rem;
 	height: 22rem;
 	background-image: url(../img/glass.png);
+	background-size: cover;
 	justify-content: flex-end;
 	align-items: center;
 }
