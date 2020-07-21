@@ -1,115 +1,102 @@
 @import url(reset.css);
 
-body {
-	width: 1440px;
-	height: 2426px;
+html {
+	font-size: 10px;
 }
-
-header {
+.body {
 	width: 100vw;
-	height: 160px;
+	min-height: 2106px;
+
+}
+.heading {
+	height: 20vmin;
+	width: 100vw;
 	background-color: #FEB700;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.heading {
-	height: 57px;
-	width: 705px;
-	margin:auto;
-}
 
 h1 {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 57px;
+	font-size: 5rem;
+	line-height: 5.7rem;
 	text-align: center;
-	color: #000000
 }
 
-main {
-	width: 1440px;
-	height: 2106px;
-}
-
-.columns {
-	width: 90vw;
-	min-height: 1966px;
+.maincontent {
+	min-height: 85vh;
+	width: 100vw;
 	display: flex;
-	margin:70px;
 	justify-content: space-between;
 	align-items: stretch;
-
+	margin:auto;
+	box-sizing: border-box;
+	padding: 70px;
 
 }
 
-.column1, .column2, .column3 {
-	width: calc((100% - 100px)/3);
-	border: 1px solid #000000;
-}
-
-.column1 {
-	height: 1874px;
-}
-
-.image1 {
-	width: 400px;
-	height: 600px;
-	background-image: url(../img/potatoes.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.text {
-	width: 334px;
-	height: 1214px;
-}
-
-.column2 {
-	height: 1920px;
-}
-
-.image2 {
-	width: 400px;
-	height: 600px;
-	background-image: url(../img/yogurt.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.column3 {
-	height: 1966px;
-}
-
-.image3 {
-	width: 400px;
-	height: 600px;
-	background-image: url(../img/granola.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.p1 {
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
-	color: #000000;
-	padding-bottom: 5px;
-}
-
-p {
+.columns1, .columns2, .columns3 {
+	width: calc((100% - 50px)/3);
+	border: 1px solid black;
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	line-height: 23px;
-	color: #000000;
-	position: relative;
-	margin: 30px 33px;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	text-align: left;
+	height: 80%;
 
+}
+
+.columns1 {
+	min-height: 1874px;
+}
+
+.img1 {
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60vmin;
+}
+
+.columns2 {
+	min-height: 1920px;
+}
+
+.img2 {
+	background-image: url(../img/2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60vmin;
+}
+
+.columns3 {
+	min-height: 1966px;
+}
+
+.img3 {
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60vmin;
+}
+
+.p1, .p2, .p3 {
+	padding: 3.3rem;
+}
+h2 {
+	font-weight: bold;
+}
+
+.footer {
+	height: 15vmin;
+	width: 100vw;
+	background-color: #FEB700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
