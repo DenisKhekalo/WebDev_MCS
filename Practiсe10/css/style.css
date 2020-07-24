@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+html {
+	font-size: 10px;
+}
+
+body {
+	width: 100vw;
+	min-height: 1024px;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+  	width: 100vw;
+  	height: 12vmin;
+  	background: #F8BFC7;
+
+}
+
+li {
+	display: inline-block;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding:3.3rem 5rem;
+}
+
+.containerimg {
+     width: 100vw;
+     height: 76vmin;
+     background-image: url(../img/background.png);
+	 background-size: cover;
+	 background-position: center;
+}
+
+.containerh1 {
+	width: 100vw;
+	height: 15vmin;
+	background-color:#316FCE;
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 5.7rem;
+	color: #FEB700;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+  	width: 100vw;
+  	height: 12vmin;
+  	background: #F8BFC7;
+  	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding:3.3rem 5rem;
+}
+

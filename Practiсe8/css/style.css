@@ -3,6 +3,18 @@
 html {
 	font-size: 10px;
 }
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+}
+
 .body {
 	width: 100vw;
 	min-height: 2106px;
@@ -19,15 +31,12 @@ html {
 
 
 h1 {
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 5rem;
 	line-height: 5.7rem;
 	text-align: center;
 }
 
-.maincontent {
+.columns {
 	min-height: 85vh;
 	width: 100vw;
 	display: flex;
@@ -39,12 +48,9 @@ h1 {
 
 }
 
-.columns1, .columns2, .columns3 {
+.column {
 	width: calc((100% - 50px)/3);
 	border: 1px solid black;
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 2rem;
 	line-height: 2.3rem;
 	text-align: left;
@@ -52,37 +58,27 @@ h1 {
 
 }
 
-.columns1 {
-	min-height: 1874px;
-}
-
 .img1 {
 	background-image: url(../img/1.jpg);
 	background-size: cover;
-	background-position: center;
-	height: 60vmin;
+	background-position: bottom;
+	padding-bottom: 100%;
 }
 
-.columns2 {
-	min-height: 1920px;
-}
 
 .img2 {
 	background-image: url(../img/2.jpg);
 	background-size: cover;
-	background-position: center;
-	height: 60vmin;
+	background-position: bottom;
+	padding-bottom:100%;
 }
 
-.columns3 {
-	min-height: 1966px;
-}
 
 .img3 {
 	background-image: url(../img/3.jpg);
 	background-size: cover;
-	background-position: center;
-	height: 60vmin;
+	background-position: bottom;
+	padding-bottom: 100%;
 }
 
 .p1, .p2, .p3 {
