@@ -41,7 +41,7 @@ h1 {
 	width: 100vw;
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: flex-start;
 	margin:auto;
 	box-sizing: border-box;
 	padding: 70px;
