@@ -7,17 +7,20 @@ html {
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
+	font-size: 2rem;
+	line-height: 2.3rem;
 }
 
 .body {
 	width: 100vw;
-	min-height: 2106px;
+	min-height: 210.6rem;
 
 }
 .heading {
@@ -43,19 +46,14 @@ h1 {
 	justify-content: space-between;
 	align-items: flex-start;
 	margin:auto;
-	box-sizing: border-box;
-	padding: 70px;
+	padding: 7rem;
 
 }
 
 .column {
-	width: calc((100% - 50px)/3);
+	width: calc((100% - 5rem)/3);
 	border: 1px solid black;
-	font-size: 2rem;
-	line-height: 2.3rem;
 	text-align: left;
-	height: 80%;
-
 }
 
 .img1 {

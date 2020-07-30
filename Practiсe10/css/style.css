@@ -3,10 +3,14 @@
 html {
 	font-size: 10px;
 }
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 body {
 	width: 100vw;
-	min-height: 1024px;
+	min-height: 102.4rem;
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
@@ -50,9 +54,6 @@ li {
 	background-color:#316FCE;
 	display: flex;
 	justify-content: center;
-	font-family: Helvetica;
-	font-style: normal;
-	font-weight: bold;
 	font-size: 5rem;
 	line-height: 5.7rem;
 	color: #FEB700;
@@ -61,9 +62,9 @@ li {
 .page {
 	position: absolute;
 	background: #F8BFC7;
-	width: 300px;
-	height: 362px;
-	border: 3px solid #FFFFFF;
+	width: 30rem;
+	height: 36.2rem;
+	border: 0.3rem solid #FFFFFF;
 	border-radius: 2rem;
 	margin: 9rem 9rem;
 }
@@ -97,16 +98,16 @@ label {
 }
 
 input[type="submit"] {
-	position: relative;
-	top: 7rem;
+	position: absolute;
+	top: 36rem;
 	left: 1.5rem;
 	width: 20rem;
 	height: 6rem;
 	color: white;
 	background-color: #FEB700;
-	border: 3px solid #FFFFFF;
+	border: 0.3rem solid #FFFFFF;
 	box-sizing: border-box;
-	border-radius: 30px;
+	border-radius: 3rem;
 	cursor: pointer;
 }
 input:focus {
