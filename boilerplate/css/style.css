@@ -1,5 +1,83 @@
 @import url(reset.css);
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
-	background: red;
+	background: black;
+	font-family: Space Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+}
+
+.heading {
+	width: 287px;
+	height: 82px;
+	background: #FF0000;
+	display: flex;
+	margin: auto;
+	margin-top: 10vh;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 69px;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.text1 {
+	width: 270px;
+	height: 30px;
+	display: flex;
+	margin: auto;
+	margin-top: 5vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.maintext {
+	width: 307px;
+	height: 315px;
+	display: flex;
+	margin: auto;
+	margin-top: 10vh;
+	flex-direction: column;
+}
+
+.news {
+	width: 50px;
+	height: 20px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.text2 {
+	line-height: 35px;
+}
+
+.image {
+	width: 150px;
+	display: flex;
+	margin: auto;
+	margin-top: 10vh;
+	justify-content: space-between;
+	align-items: center;
 }
