@@ -1,19 +1,21 @@
 html {
 	font-size: 10px;
+	
 }
 
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font: inherit;
 }
 :root {
 	--main-color: #FEB700;
 }
 body {
 	font-family: Times New Roman;
-	font-style: lighter;
-	font-weight: lighter;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 2rem;
 	line-height: 2.3rem;
 }
@@ -23,7 +25,7 @@ body {
 	min-height: 210.6rem;
 
 }
-.heading {
+.header {
 	height: 20vmin;
 	background-color: var(--main-color);
 	display: flex;
@@ -34,8 +36,6 @@ body {
 
 h1 {
 	font-size: 5rem;
-	line-height: 5.7rem;
-	text-align: center;
 }
 
 .columns {
@@ -43,7 +43,6 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin:auto;
 	padding: 7rem;
 
 }
@@ -51,7 +50,6 @@ h1 {
 .column {
 	width: calc((100% - 5rem)/3);
 	border: 1px solid black;
-	text-align: left;
 }
 
 .img1 {
@@ -82,8 +80,15 @@ h1 {
 }
 h2 {
 	font-weight: bold;
+	padding: 2rem 0rem;
+}
+.p11, .p12 {
+     padding-bottom: 2rem;
 }
 
+li {
+	list-style-type: none;
+}
 .footer {
 	height: 15vmin;
 	background-color: var(--main-color);
